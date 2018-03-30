@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>tool_icons/Assistant.png</file>
+        <file>tool_icons/Help.png</file>
+        <file>tool_icons/Restart.png</file>
+        <file>tool_icons/Shut Down.png</file>
+        <file>tool_icons/Back.png</file>
+    </qresource>
+</RCC>

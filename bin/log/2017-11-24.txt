@@ -1,0 +1,1 @@
+[2017-11-24 09:55:47.097]:Debug main.cpp.int qMain(int, char**).69-s

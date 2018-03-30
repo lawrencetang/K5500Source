@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>orecordtablewidget_icons/checked.png</file>
+        <file>orecordtablewidget_icons/unchecked.png</file>
+    </qresource>
+</RCC>

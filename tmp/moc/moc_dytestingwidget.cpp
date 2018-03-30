@@ -1,0 +1,239 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'dytestingwidget.h'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.4.2)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "../../applications/dynamicswindow/dytestingwidget.h"
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#include <QtCore/QVector>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'dytestingwidget.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.4.2. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+struct qt_meta_stringdata_DYTestingWidget_t {
+    QByteArrayData data[21];
+    char stringdata[260];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_DYTestingWidget_t, stringdata) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_DYTestingWidget_t qt_meta_stringdata_DYTestingWidget = {
+    {
+QT_MOC_LITERAL(0, 0, 15), // "DYTestingWidget"
+QT_MOC_LITERAL(1, 16, 14), // "backBtnClicked"
+QT_MOC_LITERAL(2, 31, 0), // ""
+QT_MOC_LITERAL(3, 32, 13), // "toSettingPage"
+QT_MOC_LITERAL(4, 46, 12), // "toStartBlank"
+QT_MOC_LITERAL(5, 59, 14), // "toStartMeasure"
+QT_MOC_LITERAL(6, 74, 17), // "drawDynamicsCurve"
+QT_MOC_LITERAL(7, 92, 1), // "x"
+QT_MOC_LITERAL(8, 94, 15), // "QVector<double>"
+QT_MOC_LITERAL(9, 110, 1), // "y"
+QT_MOC_LITERAL(10, 112, 10), // "saveResult"
+QT_MOC_LITERAL(11, 123, 8), // "fileName"
+QT_MOC_LITERAL(12, 132, 4), // "data"
+QT_MOC_LITERAL(13, 137, 10), // "saveRecord"
+QT_MOC_LITERAL(14, 148, 7), // "capture"
+QT_MOC_LITERAL(15, 156, 8), // "showData"
+QT_MOC_LITERAL(16, 165, 11), // "clearCurves"
+QT_MOC_LITERAL(17, 177, 15), // "doubleClickPlot"
+QT_MOC_LITERAL(18, 193, 28), // "doubleClickRecordTableWidget"
+QT_MOC_LITERAL(19, 222, 17), // "onBlankBtnClicked"
+QT_MOC_LITERAL(20, 240, 19) // "onMeasureBtnClicked"
+
+    },
+    "DYTestingWidget\0backBtnClicked\0\0"
+    "toSettingPage\0toStartBlank\0toStartMeasure\0"
+    "drawDynamicsCurve\0x\0QVector<double>\0"
+    "y\0saveResult\0fileName\0data\0saveRecord\0"
+    "capture\0showData\0clearCurves\0"
+    "doubleClickPlot\0doubleClickRecordTableWidget\0"
+    "onBlankBtnClicked\0onMeasureBtnClicked"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_DYTestingWidget[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      14,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       4,       // signalCount
+
+ // signals: name, argc, parameters, tag, flags
+       1,    0,   84,    2, 0x06 /* Public */,
+       3,    0,   85,    2, 0x06 /* Public */,
+       4,    0,   86,    2, 0x06 /* Public */,
+       5,    0,   87,    2, 0x06 /* Public */,
+
+ // slots: name, argc, parameters, tag, flags
+       6,    2,   88,    2, 0x0a /* Public */,
+      10,    2,   93,    2, 0x0a /* Public */,
+      13,    1,   98,    2, 0x0a /* Public */,
+      14,    0,  101,    2, 0x08 /* Private */,
+      15,    1,  102,    2, 0x08 /* Private */,
+      16,    0,  105,    2, 0x08 /* Private */,
+      17,    0,  106,    2, 0x08 /* Private */,
+      18,    0,  107,    2, 0x08 /* Private */,
+      19,    0,  108,    2, 0x08 /* Private */,
+      20,    0,  109,    2, 0x08 /* Private */,
+
+ // signals: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+
+ // slots: parameters
+    QMetaType::Void, QMetaType::Double, 0x80000000 | 8,    7,    9,
+    QMetaType::Void, QMetaType::QString, QMetaType::QStringList,   11,   12,
+    QMetaType::Void, QMetaType::QStringList,   12,
+    QMetaType::Void,
+    QMetaType::Void, QMetaType::QString,   11,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void DYTestingWidget::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        DYTestingWidget *_t = static_cast<DYTestingWidget *>(_o);
+        switch (_id) {
+        case 0: _t->backBtnClicked(); break;
+        case 1: _t->toSettingPage(); break;
+        case 2: _t->toStartBlank(); break;
+        case 3: _t->toStartMeasure(); break;
+        case 4: _t->drawDynamicsCurve((*reinterpret_cast< double(*)>(_a[1])),(*reinterpret_cast< QVector<double>(*)>(_a[2]))); break;
+        case 5: _t->saveResult((*reinterpret_cast< QString(*)>(_a[1])),(*reinterpret_cast< QStringList(*)>(_a[2]))); break;
+        case 6: _t->saveRecord((*reinterpret_cast< QStringList(*)>(_a[1]))); break;
+        case 7: _t->capture(); break;
+        case 8: _t->showData((*reinterpret_cast< QString(*)>(_a[1]))); break;
+        case 9: _t->clearCurves(); break;
+        case 10: _t->doubleClickPlot(); break;
+        case 11: _t->doubleClickRecordTableWidget(); break;
+        case 12: _t->onBlankBtnClicked(); break;
+        case 13: _t->onMeasureBtnClicked(); break;
+        default: ;
+        }
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        switch (_id) {
+        default: *reinterpret_cast<int*>(_a[0]) = -1; break;
+        case 4:
+            switch (*reinterpret_cast<int*>(_a[1])) {
+            default: *reinterpret_cast<int*>(_a[0]) = -1; break;
+            case 1:
+                *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< QVector<double> >(); break;
+            }
+            break;
+        }
+    } else if (_c == QMetaObject::IndexOfMethod) {
+        int *result = reinterpret_cast<int *>(_a[0]);
+        void **func = reinterpret_cast<void **>(_a[1]);
+        {
+            typedef void (DYTestingWidget::*_t)();
+            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&DYTestingWidget::backBtnClicked)) {
+                *result = 0;
+            }
+        }
+        {
+            typedef void (DYTestingWidget::*_t)();
+            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&DYTestingWidget::toSettingPage)) {
+                *result = 1;
+            }
+        }
+        {
+            typedef void (DYTestingWidget::*_t)();
+            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&DYTestingWidget::toStartBlank)) {
+                *result = 2;
+            }
+        }
+        {
+            typedef void (DYTestingWidget::*_t)();
+            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&DYTestingWidget::toStartMeasure)) {
+                *result = 3;
+            }
+        }
+    }
+}
+
+const QMetaObject DYTestingWidget::staticMetaObject = {
+    { &QFrame::staticMetaObject, qt_meta_stringdata_DYTestingWidget.data,
+      qt_meta_data_DYTestingWidget,  qt_static_metacall, Q_NULLPTR, Q_NULLPTR}
+};
+
+
+const QMetaObject *DYTestingWidget::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *DYTestingWidget::qt_metacast(const char *_clname)
+{
+    if (!_clname) return Q_NULLPTR;
+    if (!strcmp(_clname, qt_meta_stringdata_DYTestingWidget.stringdata))
+        return static_cast<void*>(const_cast< DYTestingWidget*>(this));
+    return QFrame::qt_metacast(_clname);
+}
+
+int DYTestingWidget::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QFrame::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 14)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 14;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 14)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 14;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void DYTestingWidget::backBtnClicked()
+{
+    QMetaObject::activate(this, &staticMetaObject, 0, Q_NULLPTR);
+}
+
+// SIGNAL 1
+void DYTestingWidget::toSettingPage()
+{
+    QMetaObject::activate(this, &staticMetaObject, 1, Q_NULLPTR);
+}
+
+// SIGNAL 2
+void DYTestingWidget::toStartBlank()
+{
+    QMetaObject::activate(this, &staticMetaObject, 2, Q_NULLPTR);
+}
+
+// SIGNAL 3
+void DYTestingWidget::toStartMeasure()
+{
+    QMetaObject::activate(this, &staticMetaObject, 3, Q_NULLPTR);
+}
+QT_END_MOC_NAMESPACE

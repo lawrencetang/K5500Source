@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DeviceCheckWindow</class>
+ <widget class="QFrame" name="DeviceCheckWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1208</width>
+    <height>787</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Frame</string>
+  </property>
+  <property name="frameShape">
+   <enum>QFrame::NoFrame</enum>
+  </property>
+  <property name="frameShadow">
+   <enum>QFrame::Raised</enum>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout" stretch="1,4">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QFrame" name="frameLeft">
+     <property name="styleSheet">
+      <string notr="true">QFrame#frameLeft{
+	background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:0, stop:0 rgba(61, 252, 64, 230), stop:1 rgba(0, 0, 0, 255));
+}
+
+QLabel{
+	font: 18pt &quot;微软雅黑&quot;;
+	color:white;
+	background: transparent;
+}
+
+QLineEdit {   
+	border: 1px solid white;
+	selection-background-color: #0A246A;
+	font: 12pt &quot;微软雅黑&quot;;
+	color:white;
+	background: transparent;
+}   
+
+QLineEdit[echoMode=&quot;3&quot;] {   
+    lineedit-password-character: 9679;   
+}
+   
+QLineEdit:read-only { 
+	color: darkgray;
+    background:transparent;   
+}
+
+QSpinBox, QDoubleSpinBox, QDateTimeEdit {
+	border: 1px solid white;
+	font: 12pt &quot;微软雅黑&quot;;
+	color:white;
+	background: transparent;
+}
+
+QSpinBox::up-button, QDoubleSpinBox::up-button, QDateTimeEdit::up-button {
+	subcontrol-origin:border;
+	subcontrol-position:right;
+	padding-left: 10px;
+	image: url(:/protein_icons/arrow_right.png);
+	width: 24px;height: 28px; right:5px;
+}
+QSpinBox::down-button, QDoubleSpinBox::down-button, QDateTimeEdit::down-button {
+	subcontrol-origin:border;
+	subcontrol-position:left;
+	padding-right: 10px;
+	image: url(:/protein_icons/arrow_left.png);
+	width: 24px;height: 28px; left:5px;
+}
+QSpinBox::up-button:pressed, QDoubleSpinBox::up-button:pressed, QDateTimeEdit::up-button:pressed {
+	subcontrol-origin:border;
+	subcontrol-position:right;
+	image: url(:/protein_icons/arrow_right.png);
+	width: 23px;height: 27px;
+}
+QSpinBox::down-button:pressed, QDoubleSpinBox::down-button:pressed, QDateTimeEdit::down-button:pressed {
+	subcontrol-position:left;
+	image: url(:/protein_icons/arrow_left.png);
+	width: 23px;height: 27px;
+}
+QSpinBox::disabled, QDoubleSpinBox::disabled, QDateTimeEdit::disabled {
+	color:darkgray;
+}
+
+QComboBox {
+	border: 1px solid white;
+	padding: 1px 18px 1px 3px;
+	min-width: 6em;
+	font: 12pt &quot;微软雅黑&quot;;
+	color:white;
+}
+
+QComboBox::hover{
+	padding-top: 3px;
+	padding-left: 4px;
+}
+
+QComboBox:editable {
+	background: white;
+}
+
+QComboBox:!editable, QComboBox::drop-down:editable {
+	background: transparent;
+}
+
+QComboBox:!editable:on, QComboBox::drop-down:editable:on {
+	background: transparent;
+}
+
+QComboBox:on {
+	padding-top: 3px;padding-left: 4px;
+}
+
+QComboBox::drop-down {
+	subcontrol-origin: padding;
+	subcontrol-position: right;
+	border: 0px solid white;
+	width:40px;height:40px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+
+QComboBox::down-arrow {
+	image: url(:/protein_icons/arrow_down.png);
+	width: 24px;height: 28px;
+}
+
+QComboBox::down-arrow:on { 
+	top: 1px;left: 1px;
+}
+
+QComboBox QAbstractItemView {
+	color: white;
+	border:0px solid white;
+	selection-background-color: rgba(255, 255, 255, 50);
+	background: blue;
+}
+
+QComboBox QAbstractItemView::item { 
+	font: 12pt &quot;微软雅黑&quot;;
+	min-height: 48px;
+	min-width: 60px;
+}
+QGroupBox {
+	font: 12pt &quot;微软雅黑&quot;;
+}
+
+QGroupBox::title {
+	color: white;
+}
+</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout" stretch="0,0,0,0,0,0,0,0,1,0">
+      <property name="spacing">
+       <number>6</number>
+      </property>
+      <item>
+       <widget class="QLabel" name="labelMethod">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>48</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Method:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="comboBoxMethod">
+        <property name="minimumSize">
+         <size>
+          <width>149</width>
+          <height>48</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="labelOptical">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>48</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Optical:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="comboBoxOptical">
+        <property name="minimumSize">
+         <size>
+          <width>149</width>
+          <height>48</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="labelChannel">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>48</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Channel:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="comboBoxChannel">
+        <property name="minimumSize">
+         <size>
+          <width>149</width>
+          <height>48</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="labelIntergralTime">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>48</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Integral Time:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QSpinBox" name="spinBoxIntergralTime">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>48</height>
+         </size>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <property name="suffix">
+         <string> us</string>
+        </property>
+        <property name="prefix">
+         <string/>
+        </property>
+        <property name="minimum">
+         <number>10</number>
+        </property>
+        <property name="maximum">
+         <number>200000</number>
+        </property>
+        <property name="value">
+         <number>30000</number>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="verticalSpacer">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>96</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QFrame" name="frameKeyboard">
+        <property name="frameShape">
+         <enum>QFrame::NoFrame</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout_2" stretch="1,0">
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <item>
+      <widget class="QFrame" name="framePlot">
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QFrame" name="frameBottom">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>55</height>
+        </size>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QFrame#frameBottom{
+	background-color: rgb(85, 0, 127);
+}
+
+QToolButton{
+	color:white;
+	font: 18pt &quot;微软雅黑&quot;;
+}</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QToolButton" name="toolButtonBack">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>180</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>Back</string>
+          </property>
+          <property name="autoRaise">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>403</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QToolButton" name="toolButtonCheck">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>180</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>Check</string>
+          </property>
+          <property name="autoRaise">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QToolButton" name="toolButtonClear">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>180</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>Clear</string>
+          </property>
+          <property name="autoRaise">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

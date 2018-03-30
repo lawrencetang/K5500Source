@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>microarray_icons/arrow_down.png</file>
+        <file>microarray_icons/arrow_down_disable.png</file>
+        <file>microarray_icons/arrow_left.png</file>
+        <file>microarray_icons/arrow_left_disable.png</file>
+        <file>microarray_icons/arrow_right.png</file>
+        <file>microarray_icons/arrow_right_disable.png</file>
+        <file>microarray_icons/checked.png</file>
+        <file>microarray_icons/unchecked.png</file>
+    </qresource>
+</RCC>

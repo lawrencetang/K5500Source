@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>temperature_icons/arrow_down.png</file>
+        <file>temperature_icons/arrow_down_disable.png</file>
+        <file>temperature_icons/arrow_left.png</file>
+        <file>temperature_icons/arrow_left_disable.png</file>
+        <file>temperature_icons/arrow_right.png</file>
+        <file>temperature_icons/arrow_right_disable.png</file>
+        <file>temperature_icons/run.png</file>
+        <file>temperature_icons/stop.png</file>
+    </qresource>
+</RCC>

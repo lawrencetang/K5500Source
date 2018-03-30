@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>ofileexplorer_icons/document.png</file>
+        <file>ofileexplorer_icons/image.png</file>
+        <file>ofileexplorer_icons/checked.png</file>
+        <file>ofileexplorer_icons/unchecked.png</file>
+        <file>ofileexplorer_icons/file.png</file>
+        <file>ofileexplorer_icons/picture.png</file>
+    </qresource>
+</RCC>

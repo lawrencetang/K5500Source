@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/">
+        <file>kitmethod_icons/arrow_down.png</file>
+        <file>kitmethod_icons/arrow_down_disable.png</file>
+        <file>kitmethod_icons/arrow_left.png</file>
+        <file>kitmethod_icons/arrow_left_disable.png</file>
+        <file>kitmethod_icons/arrow_right.png</file>
+        <file>kitmethod_icons/arrow_right_disable.png</file>
+        <file>kitmethod_icons/change.png</file>
+        <file>kitmethod_icons/fit.png</file>
+        <file>kitmethod_icons/plus.png</file>
+        <file>kitmethod_icons/remove.png</file>
+        <file>kitmethod_icons/back.png</file>
+    </qresource>
+</RCC>

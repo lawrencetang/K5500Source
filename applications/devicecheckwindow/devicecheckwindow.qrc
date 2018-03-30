@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>devicecheck_icons/arrow_down.png</file>
+        <file>devicecheck_icons/arrow_down_disable.png</file>
+    </qresource>
+</RCC>

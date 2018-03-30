@@ -1,0 +1,20 @@
+[2018-03-30 10:04:38.563]:Debug ..0-1
+[2018-03-30 10:06:08.938]:Debug ..0-1
+[2018-03-30 10:08:03.949]:Debug applications\kitmethodwindow\models\kmolsfit.cpp.int CalAvgVar(QVector<double>, QVector<double>, int, int, QList<double>, double*).397-和方差SSE = 0.000000，(均)方差MSE = 0.000000，确定系数R-square = 1.000000
+[2018-03-30 10:08:03.953]:Debug ..0-1
+[2018-03-30 10:08:37.684]:Debug applications\kitmethodwindow\models\kmolsfit.cpp.int CalAvgVar(QVector<double>, QVector<double>, int, int, QList<double>, double*).397-和方差SSE = 0.000000，(均)方差MSE = 0.000000，确定系数R-square = 1.000000
+[2018-03-30 10:08:37.690]:Debug ..0-2
+[2018-03-30 10:11:50.986]:Debug applications\kitmethodwindow\models\kmolsfit.cpp.int CalAvgVar(QVector<double>, QVector<double>, int, int, QList<double>, double*).397-和方差SSE = 82.676924，(均)方差MSE = 16.535385，确定系数R-square = 0.081368
+[2018-03-30 10:11:50.992]:Debug ..0-2
+[2018-03-30 10:26:56.487]:Debug applications\kitmethodwindow\models\kmolsfit.cpp.int CalAvgVar(QVector<double>, QVector<double>, int, int, QList<double>, double*).397-和方差SSE = 82.676924，(均)方差MSE = 16.535385，确定系数R-square = 0.081368
+[2018-03-30 10:26:56.491]:Debug ..0-2
+[2018-03-30 10:28:48.962]:Debug applications\kitmethodwindow\models\kmolsfit.cpp.int CalAvgVar(QVector<double>, QVector<double>, int, int, QList<double>, double*).397-和方差SSE = 0.000000，(均)方差MSE = 0.000000，确定系数R-square = 1.000000
+[2018-03-30 10:28:48.967]:Debug ..0-2
+[2018-03-30 10:29:38.295]:Debug applications\kitmethodwindow\models\kmolsfit.cpp.int CalAvgVar(QVector<double>, QVector<double>, int, int, QList<double>, double*).397-和方差SSE = 0.000314，(均)方差MSE = 0.000063，确定系数R-square = 0.999997
+[2018-03-30 10:29:38.300]:Debug ..0-2
+[2018-03-30 10:29:47.568]:Debug applications\kitmethodwindow\models\kmolsfit.cpp.int CalAvgVar(QVector<double>, QVector<double>, int, int, QList<double>, double*).397-和方差SSE = 46.741446，(均)方差MSE = 9.348289，确定系数R-square = 0.519121
+[2018-03-30 10:29:47.572]:Debug ..0-1
+[2018-03-30 10:29:55.218]:Debug applications\kitmethodwindow\models\kmolsfit.cpp.int CalAvgVar(QVector<double>, QVector<double>, int, int, QList<double>, double*).397-和方差SSE = 0.000000，(均)方差MSE = 0.000000，确定系数R-square = 1.000000
+[2018-03-30 10:29:55.222]:Debug ..0-3
+[2018-03-30 10:30:06.094]:Debug applications\kitmethodwindow\models\kmolsfit.cpp.int CalAvgVar(QVector<double>, QVector<double>, int, int, QList<double>, double*).397-和方差SSE = 46.741446，(均)方差MSE = 9.348289，确定系数R-square = 0.519121
+[2018-03-30 10:30:06.109]:Debug ..0-1
