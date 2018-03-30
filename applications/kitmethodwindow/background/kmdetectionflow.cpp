@@ -250,7 +250,8 @@ void KMDetectionFlow::delay(int timeout) {
 void KMDetectionFlow::showResult(KMSettingModel *setting, Absorbance *a, int id) {
 
     // 标准单位为mg/mL
-    double c = a->getAbsoByWL((double)setting->getMwl())*transformUnit(setting->getUnit());
+    //double c = a->getAbsoByWL((double)setting->getMwl())*transformUnit(setting->getUnit());//ltg
+    double c = a->getAbsoByWL((double)setting->getMwl());
     emit toShowResult(c);
 
     QVector<double> x = a->waveLength();
