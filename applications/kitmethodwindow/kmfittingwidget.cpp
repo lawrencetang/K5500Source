@@ -191,7 +191,7 @@ void KMFittingWidget::updateData(QVector<double> x, QVector<double> y, QStringLi
     QStringList data;
     for(int i = 0; i < x.size(); i ++) {
         data.clear();
-        data << QString::number(x.at(i)) << QString::number(y.at(i));
+        data << QString::number(y.at(i)) << QString::number(x.at(i));
         m_pFitTableWidget->add(data);
     }
     ui->toolButtonFit->setEnabled(m_pFitTableWidget->rowCount() >= 5);
